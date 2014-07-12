@@ -106,14 +106,17 @@
 {
     [self processOp: '+'];
 }
+
 -(IBAction)clickMinus
 {
     [self processOp: '-'];
 }
+
 -(IBAction)clickMultiply
 {
     [self processOp: '*'];
 }
+
 -(IBAction)clickDivide
 {
     [self processOp: '/'];
