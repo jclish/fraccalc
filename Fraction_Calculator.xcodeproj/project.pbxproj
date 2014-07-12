@@ -21,6 +21,8 @@
 		4E2CFC0A1970A28200C2CC26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2CFBEC1970A28200C2CC26 /* UIKit.framework */; };
 		4E2CFC121970A28200C2CC26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E2CFC101970A28200C2CC26 /* InfoPlist.strings */; };
 		4E2CFC141970A28200C2CC26 /* Fraction_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CFC131970A28200C2CC26 /* Fraction_CalculatorTests.m */; };
+		4E3700061970C95E00EBECC7 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3700051970C95E00EBECC7 /* Fraction.m */; };
+		4E3700081970C9A700EBECC7 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3700071970C9A700EBECC7 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		4E2CFC131970A28200C2CC26 /* Fraction_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_CalculatorTests.m; sourceTree = "<group>"; };
 		4E3700031970C88000EBECC7 /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		4E3700041970C8A100EBECC7 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		4E3700051970C95E00EBECC7 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		4E3700071970C9A700EBECC7 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				4E2CFBEF1970A28200C2CC26 /* Supporting Files */,
 				4E3700031970C88000EBECC7 /* Calculator.h */,
 				4E3700041970C8A100EBECC7 /* Fraction.h */,
+				4E3700051970C95E00EBECC7 /* Fraction.m */,
+				4E3700071970C9A700EBECC7 /* Calculator.m */,
 			);
 			path = Fraction_Calculator;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 				4E2CFBF51970A28200C2CC26 /* main.m in Sources */,
 				4E2CFBF91970A28200C2CC26 /* FCAppDelegate.m in Sources */,
 				4E2CFBFF1970A28200C2CC26 /* FCViewController.m in Sources */,
+				4E3700061970C95E00EBECC7 /* Fraction.m in Sources */,
+				4E3700081970C9A700EBECC7 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
