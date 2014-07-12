@@ -53,6 +53,8 @@
 		4E2CFC0F1970A28200C2CC26 /* Fraction_CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fraction_CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		4E2CFC111970A28200C2CC26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E2CFC131970A28200C2CC26 /* Fraction_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction_CalculatorTests.m; sourceTree = "<group>"; };
+		4E3700031970C88000EBECC7 /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		4E3700041970C8A100EBECC7 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,8 @@
 				4E2CFBFE1970A28200C2CC26 /* FCViewController.m */,
 				4E2CFC001970A28200C2CC26 /* Images.xcassets */,
 				4E2CFBEF1970A28200C2CC26 /* Supporting Files */,
+				4E3700031970C88000EBECC7 /* Calculator.h */,
+				4E3700041970C8A100EBECC7 /* Fraction.h */,
 			);
 			path = Fraction_Calculator;
 			sourceTree = "<group>";
@@ -457,6 +461,7 @@
 				4E2CFC191970A28200C2CC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E2CFC1A1970A28200C2CC26 /* Build configuration list for PBXNativeTarget "Fraction_CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				4E2CFC1C1970A28200C2CC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
