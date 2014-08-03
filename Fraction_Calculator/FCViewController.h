@@ -12,7 +12,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *display;
 
--(void) processDigit: (int) digit;
+-(void) processDigit: (long) digit;
 -(void) processOp: (char) theOp;
 -(void) storeFracPart;
 
@@ -32,3 +32,5 @@
 -(IBAction)clickClear;
 
 @end
+
+

@@ -7,9 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "FCViewController.h"
 
 @interface Fraction_CalculatorTests : XCTestCase
-
+@property FCViewController* viewController;
 @end
 
 @implementation Fraction_CalculatorTests
@@ -26,9 +27,5 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
 
 @end

@@ -13,9 +13,9 @@
 
 @interface Fraction : NSObject
 
-@property int numerator, denominator;
+@property long numerator, denominator;
 -(void)         print;
--(void)         setTo: (int) n over: (int) d;
+-(void)         setTo: (long) n over: (long) d;
 -(Fraction *)   add: (Fraction *) f;
 -(Fraction *)   subtract: (Fraction *) f;
 -(Fraction *)   multiply: (Fraction *) f;

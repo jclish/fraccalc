@@ -23,8 +23,8 @@
 }
 -(void) clear
 {
-    accumulator.numerator = 0;
-    accumulator.denominator = 0;
+    accumulator.numerator = 0l;
+    accumulator.denominator = 0l;
 }
 -(Fraction *) performOperation: (char) op
 {

@@ -12,14 +12,14 @@
 
 @synthesize numerator, denominator;
 
--(void) setTo: (int) n over: (int) d
+-(void) setTo: (long) n over: (long) d
 {
     numerator = n;
     denominator = d;
 }
 -(void) print
 {
-    NSLog (@"%i/%i", numerator, denominator);
+    NSLog (@"%li/%li", numerator, denominator);
 }
 -(double) convertToNum
 {
@@ -36,9 +36,9 @@
         else
             return @"1";
         else if (denominator == 1)
-            return [NSString stringWithFormat: @"%i", numerator];
+            return [NSString stringWithFormat: @"%li", numerator];
         else
-            return [NSString stringWithFormat: @"%i/%i", numerator, denominator];
+            return [NSString stringWithFormat: @"%li/%li", numerator, denominator];
 }
 -(Fraction *) add: (Fraction *) f
 {
@@ -82,9 +82,9 @@
 }
 - (void) reduce
 {
-    int u = numerator;
-    int v = denominator;
-    int temp;
+    long u = numerator;
+    long v = denominator;
+    long temp;
     
     if (u == 0)
         return;

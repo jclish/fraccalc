@@ -12,7 +12,7 @@
 @implementation FCViewController
 {
     char            op;
-    int             currentNumber;
+    long             currentNumber;
     BOOL            firstOperand, isNumerator;
     Calculator      *myCalculator;
     NSMutableString *displayString;
@@ -35,18 +35,18 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) processDigit: (int) digit
+-(void) processDigit: (long) digit
 {
     currentNumber=currentNumber* 10 + digit;
     
     [displayString appendString:
-     [NSString stringWithFormat:@"%i", digit]];
+     [NSString stringWithFormat:@"%li", digit]];
     display.text=displayString;
 }
 
 -(IBAction) clickDigit: (UIButton *) sender
 {
-    int digit = sender.tag;
+    long digit = sender.tag;
     
     [self processDigit: digit];
 }
@@ -158,4 +158,7 @@
     display.text = displayString;
 }
 
+
+
 @end
+
